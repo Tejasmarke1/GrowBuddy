@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <RelativeLayout
+        android:id="@+id/rl_1"
+        android:layout_width="330dp"
+        android:layout_height="150dp"
+        android:layout_centerHorizontal="true">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="325dp"
+            android:layout_height="wrap_content"
+            app:cardCornerRadius="20dp"
+            android:layout_centerHorizontal="true"
+            android:backgroundTint="@color/lightgreen">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <ImageView
+                    android:id="@+id/itemImage1"
+                    android:src="@drawable/ic_launcher_foreground"
+                    android:layout_width="0dp"
+                    android:layout_height="0dp"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="10dp" />
+                <ImageView
+                    android:id="@+id/delete"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/icon_delete"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="10dp"/>
+
+                <TextView
+                    android:id="@+id/cus_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Customer Name"
+                    android:textStyle="bold"
+                    android:textSize="20dp"
+                    android:layout_marginLeft="50dp"
+                    android:layout_marginTop="20dp"
+                    android:fontFamily="@font/josefinsanssemibold"/>
+
+                <TextView
+                    android:id="@+id/india"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="+91"
+                    android:textStyle="normal"
+                    android:textSize="15dp"
+                    android:textColor="@color/black"
+                    android:layout_below="@id/cus_name"
+                    android:layout_marginLeft="50dp"/>
+
+                <TextView
+                    android:id="@+id/cus_number"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Mobile Number"
+                    android:textSize="15dp"
+                    android:textColor="@color/black"
+                    android:layout_below="@id/cus_name"
+                    android:layout_toRightOf="@id/india"
+                    android:layout_marginLeft="5dp"/>
+
+                <!--                <TextView-->
+                <!--                    android:id="@+id/totalQuantity"-->
+                <!--                    android:layout_width="wrap_content"-->
+                <!--                    android:layout_height="wrap_content"-->
+                <!--                    android:text="20"-->
+                <!--                    android:layout_toRightOf="@id/total1"-->
+                <!--                    android:layout_marginTop="48dp"-->
+                <!--                    android:layout_marginLeft="5dp"/>-->
+
+                <TextView
+                    android:id="@+id/cus_address"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Address"
+                    android:textSize="15dp"
+                    android:textColor="@color/black"
+                    android:layout_below="@id/cus_number"
+                    android:layout_marginLeft="50dp"
+                    android:paddingBottom="15dp"/>
+
+                <!--                <TextView-->
+                <!--                    android:id="@+id/totalPrice"-->
+                <!--                    android:layout_width="wrap_content"-->
+                <!--                    android:layout_height="wrap_content"-->
+                <!--                    android:text="1999"-->
+                <!--                    android:layout_below="@id/totalQuantity"-->
+                <!--                    android:layout_toRightOf="@id/total2"-->
+                <!--                    android:layout_marginLeft="2dp"/>-->
+            </RelativeLayout>
+
+        </androidx.cardview.widget.CardView>
+    </RelativeLayout>
+</RelativeLayout>

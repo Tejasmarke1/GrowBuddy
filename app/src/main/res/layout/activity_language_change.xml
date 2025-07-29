@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LanguageChange"
+    android:orientation="vertical"
+    android:gravity="center"
+    >
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        >
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="12dp"
+            >
+            <TextView
+                android:id="@+id/choose"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Choose Language // भाषा निवडा"
+                android:textSize="19dp"
+                android:textStyle="bold"
+                android:gravity="center"
+
+                />
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btn_lan_en"
+                android:onClick="changeToEnglish"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/choose"
+                android:layout_marginTop="12dp"
+                android:text="English"
+                android:textStyle="bold"
+
+                />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btn_lan_mr"
+                android:onClick="changeToMarathi"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/btn_lan_en"
+                android:layout_marginTop="12dp"
+                android:text="मराठी"
+                android:textStyle="bold"
+                />
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btn_lan_hi"
+                android:onClick="changeToHindi"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/btn_lan_mr"
+                android:layout_marginTop="12dp"
+                android:text="हिंदी"
+                android:textStyle="bold"
+                />
+
+
+
+
+        </RelativeLayout>
+
+    </androidx.cardview.widget.CardView>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Continue"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="@color/theme_color"
+        android:id="@+id/btn_change"/>
+
+
+
+
+
+</LinearLayout>

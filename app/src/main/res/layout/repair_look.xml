@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <RelativeLayout
+        android:id="@+id/rl_1"
+        android:layout_width="330dp"
+        android:layout_height="150dp"
+        android:layout_centerHorizontal="true">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="330dp"
+            android:layout_height="150dp"
+            app:cardCornerRadius="20dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+<!--                <ImageView-->
+<!--                    android:id="@+id/itemImage1"-->
+<!--                    android:src="@drawable/ic_launcher_foreground"-->
+<!--                    android:layout_width="110dp"-->
+<!--                    android:layout_height="110dp"-->
+<!--                    android:layout_centerVertical="true"-->
+<!--                    android:layout_marginLeft="10dp" />-->
+
+                <TextView
+                    android:id="@+id/rep_headline"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="22dp"
+                    android:layout_toRightOf="@id/itemImage1"
+                    android:text="Philodendron"
+                    android:textSize="25dp"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:id="@+id/itemDelete"
+                    android:src="@drawable/icon_delete"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_toRightOf="@id/rep_headline"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="10dp"/>
+
+                <TextView
+                    android:id="@+id/rep_price"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="₹ 199"
+                    android:textStyle="bold"
+                    android:textSize="20dp"
+                    android:layout_below="@id/rep_headline"
+                    android:layout_toRightOf="@id/itemImage1"
+                    android:layout_marginLeft="12dp"/>
+
+                <TextView
+                    android:id="@+id/rep_discription"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Good product with best quality"
+                    android:textSize="10dp"
+                    android:layout_below="@id/rep_price"
+                    android:layout_toRightOf="@id/itemImage1"/>
+
+            </RelativeLayout>
+
+        </androidx.cardview.widget.CardView>
+
+    </RelativeLayout>
+</RelativeLayout>

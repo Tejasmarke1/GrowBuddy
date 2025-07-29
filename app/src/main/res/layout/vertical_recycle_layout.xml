@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+    android:padding="@dimen/_12sdp">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardPlant1"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_centerHorizontal="true"
+        android:backgroundTint="@color/lightgreen"
+        app:cardCornerRadius="50dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cd_img_holder"
+                android:layout_width="65dp"
+                android:layout_height="65dp"
+                android:elevation="12dp"
+                app:cardCornerRadius="40dp"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="8dp">
+                <ImageView
+                    android:id="@+id/plantImage"
+                    android:layout_height="80dp"
+                    android:layout_width="match_parent"
+                    android:src="@drawable/coleus"
+                    android:scaleType="centerCrop"/>
+            </androidx.cardview.widget.CardView>
+
+            <TextView
+                android:id="@+id/plantName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Coleus"
+                android:textStyle="bold"
+                android:textSize="22sp"
+                android:fontFamily="@font/josefinsanssemibold"
+                android:layout_marginLeft="80dp"
+                android:layout_marginTop="4dp"/>
+
+            <TextView
+                android:id="@+id/plantDescriptiion"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:text="Coleus is a genus of annual or perennial herbs or shrubs"
+                android:textSize="15sp"
+                android:fontFamily="sans-serif-condensed-light"
+                android:layout_below="@id/plantName"
+                android:layout_marginLeft="80dp"
+                android:maxLength="56"/>
+
+        </RelativeLayout>
+
+    </androidx.cardview.widget.CardView>
+
+</RelativeLayout>

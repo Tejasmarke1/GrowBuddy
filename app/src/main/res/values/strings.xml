@@ -1,0 +1,61 @@
+<resources>
+    <!--    <string name="app_name">Grow Buddy</string>-->
+    <!-- TODO: Remove or change this placeholder text -->
+
+
+    <string name="temperature">Temperature</string>
+    <string name="near_by">Near By</string>
+    <string name="gas_detection">Gas Detection</string>
+    <string name="smoke_detected">Smoke Detected</string>
+
+    <string name="login_str">Login</string>
+    <string name="username_str">Username</string>
+    <string name="password_str">Password</string>
+    <string name="conditionInLogin_str"><![CDATA[I accept all Terms & conditions.]]></string>
+    <string name="str_humidity">Humidity</string>
+    <string name="str_soil_moisture">Soil Moisture</string>
+    <string name="str_controller_report">Controller Report</string>
+    <string name="str_monitor_1_hours">Monitor 1 hours</string>
+    <string name="str_component_temperature">Component Temperature</string>
+    <string name="str_distance_of_object_near_by">Distance Of Object Near by</string>
+    <string name="str_reading_of_gas_sensor">Reading of Gas Sensor</string>
+    <string name="str_add_plant_here">Add Plant Here</string>
+    <string name="str_upload_plant_amp_tree"><![CDATA[Upload Plant & Tree]]></string>
+    <string name="str_description">Description</string>
+    <string name="str_plant_name">Plant Name</string>
+    <string name="str_upload_plant_image">Upload Plant Image</string>
+    <string name="str_submit">Submit</string>
+    <string name="str_current">Current</string>
+    <string name="str_soil_moisture_1">Soil Moisture 1</string>
+    <string name="str_soil_moisture_2">Soil Moisture 2</string>
+    <string name="str_water_pump">Water Pump</string>
+    <string name="str_terms_amp_condition"><![CDATA[Terms & Condition]]></string>
+    <string name="str_contact_us">Contact Us</string>
+    <string name="str_about_us">About Us</string>
+    <string name="str_log_out">Log Out</string>
+    <string name="str_settings">Settings</string>
+    <string name="str_term">These terms and conditions outline the rules and regulations for the use of Company Name\'s Website, located at Website.com. By accessing this website we assume you accept these terms and conditions. Do not continue to use Website Name if you do not agree to take all of the terms and conditions stated on this page. The following terminology applies to these Terms and Conditions, Privacy Statement and Disclaimer Notice and all Agreements: Client, You and Your refers to you, the person log on this website and compliant to the Company\'s terms and conditions. The Company, Ourselves, We, Our and india, refers to our Company. Party, Parties, or india, refers to both the Client and ourselves.</string>
+    <string name="str_language">Language</string>
+
+
+    <string name="buttonSelectPhoto">Select Photo</string>
+    <string name="buttonTakePhoto">Start Camera</string>
+    <string name="buttonDiagnose">Detect</string>
+    <string name="defaultImage">Default image set now...</string>
+    <string name="descriptionImage">View for displaying image</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="str_grow_buddy">Grow Buddy</string>
+    <string name="str_price">Price</string>
+    <string name="str_seeds_name">Seeds Name</string>
+    <string name="str_upload_seed_photo">Upload Seed Photo</string>
+    <string name="str_seed_data_upload">Seed Data Upload</string>
+    <string name="str_delete">Delete</string>
+    <string name="str_edit">Edit</string>
+    <string name="str_upload">Upload</string>
+    <string name="str_seeds_data">Seeds Data</string>
+    <string name="str_plant_and_tree_data">plant and tree Data</string>
+    <string name="str_tools_data">Tools Data</string>
+
+
+</resources>

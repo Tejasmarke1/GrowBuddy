@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<!--    <color name="black">#FF000000</color>-->
+<!--    <color name="white">#FFFFFFFF</color>-->
+<!--    <color name="lightgrey">#C1BBBB</color>-->
+<!--    <color name="darkblue">#054B80</color>-->
+<!--    <color name="darkred">#BD0606</color>-->
+<!--    <color name="darkgreen">#066715</color>-->
+<!--    <color name="green">#30BF36</color>-->
+<!--    <color name="lightgreen">#C2E6C4</color>-->
+<!--    <color name="status_bar_color">#0F9714</color>-->
+<!--    <color name="theme_color">#088F8F</color>-->
+<!--    <color name="purple_200">#FFBB86FC</color>-->
+<!--    <color name="purple_500">#FF6200EE</color>-->
+<!--    <color name="purple_700">#FF3700B3</color>-->
+<!--    <color name="teal_200">#FF03DAC5</color>-->
+<!--    <color name="teal_700">#FF018786</color>-->
+<!--    <color name="lavender">#0F9714</color>-->
+<!--    <color name="blue">#2061F3</color>-->
+
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="lightgrey">#C1BBBB</color>
+    <color name="darkblue">#054B80</color>
+    <color name="darkred">#BD0606</color>
+    <color name="darkgreen">#066715</color>
+    <color name="green">#046565</color>
+    <color name="lightgreen">#B9DFDF</color>
+    <color name="status_bar_color">#046565</color>
+    <color name="theme_color">#088F8F</color>
+    <color name="theme">#B9DFDF</color>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="lavender">#046565</color>
+    <color name="blue">#2061F3</color>
+    <color name="lightblue">#FF6548</color>
+    <color name="theme2">#FFFFFE</color>
+    <color name="backTheme">#FFFDF6FE</color>
+
+    <color name="primary">#1C2E46</color>
+    <color name="primary_dark">#142232</color>
+    <color name="primary_text">#212121</color>
+    <color name="secondary_text">#757575</color>
+</resources>

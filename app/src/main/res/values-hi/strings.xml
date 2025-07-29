@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<resources>
+    <string name="temperature">तापमान</string>
+    <string name="near_by">पास में</string>
+    <string name="gas_detection">गैस का पता लगाना</string>
+    <string name="smoke_detected">धुआं पता लगाया गया</string>
+
+    <string name="login_str">लॉगिन</string>
+    <string name="username_str">उपयोगकर्ता नाम</string>
+    <string name="password_str">पासवर्ड</string>
+    <string name="conditionInLogin_str"><![CDATA[मैं सभी नियम और शर्तों को स्वीकार करता हूं।]]></string>
+    <string name="str_humidity">नमी</string>
+    <string name="str_soil_moisture">मिट्टी की नमी</string>
+    <string name="str_controller_report">नियंत्रक रिपोर्ट</string>
+    <string name="str_monitor_1_hours">1 घंटे का मॉनिटर</string>
+    <string name="str_component_temperature">घटक का तापमान</string>
+    <string name="str_distance_of_object_near_by">पास में वस्तु की दूरी</string>
+    <string name="str_reading_of_gas_sensor">गैस सेंसर का पठन</string>
+    <string name="str_add_plant_here">यहां पौधा जोड़ें</string>
+    <string name="str_upload_plant_amp_tree"><![CDATA[पौधा और पेड़ अपलोड करें]]></string>
+    <string name="str_description">विवरण</string>
+    <string name="str_plant_name">पौधे का नाम</string>
+    <string name="str_upload_plant_image">पौधे की छवि अपलोड करें</string>
+    <string name="str_submit">प्रस्तुत करें</string>
+    <string name="str_current">वर्तमान</string>
+    <string name="str_soil_moisture_1">मिट्टी की नमी 1</string>
+    <string name="str_soil_moisture_2">मिट्टी की नमी 2</string>
+    <string name="str_water_pump">पानी का पंप</string>
+    <string name="str_terms_amp_condition"><![CDATA[नियम और शर्त]]></string>
+    <string name="str_contact_us">संपर्क करें</string>
+    <string name="str_about_us">हमारे बारे में</string>
+    <string name="str_log_out">लॉग आउट</string>
+    <string name="str_settings">सेटिंग्स</string>
+    <string name="str_term">इन नियमों और शर्तों में कंपनी के वेबसाइट का उपयोग करने के नियम और विधियों का विवरण है, जो वेबसाइट Website.com पर स्थित है। इस वेबसाइट तक पहुँचकर हम मानते हैं कि आप इन नियमों और शर्तों को स्वीकार करते हैं। यदि आप इस पृष्ठ पर उल्लिखित सभी नियमों और शर्तों को स्वीकार नहीं करते हैं, तो Website Name का उपयोग जारी न करें। इन नियमों और शर्तों, गोपनीयता वक्तव्य और अस्वीकृति सूचना और सभी समझौतों के लिए निम्नलिखित शब्दावली का उपयोग होता है: ग्राहक, आप और आपका आप, जो इस वेबसाइट पर लॉग ऑन होते हैं और कंपनी की नियमों और शर्तों का पालन करते हैं। कंपनी, हम, हमारे और भारत, हमारी कंपनी के लिए है। पार्टी, पार्टियाँ, या भारत, ग्राहक और हम दोनों के लिए है।</string>
+    <string name="str_language">भाषा</string>
+
+    <string name="buttonSelectPhoto">फोटो चुनें</string>
+    <string name="buttonTakePhoto">फोटो खींचें</string>
+    <string name="buttonDiagnose">जांच करें</string>
+    <string name="defaultImage">अब डिफ़ॉल्ट छवि सेट की गई है...</string>
+    <string name="descriptionImage">छवि के लिए विवरण</string>
+
+    <string name="hello_blank_fragment">नमस्कार रिक्त फ्रेगमेंट</string>
+    <string name="str_grow_buddy">विकसित मित्र</string>
+    <string name="str_price">मूल्य</string>
+    <string name="str_seeds_name">बीजों का नाम</string>
+    <string name="str_upload_seed_photo">बीज की फोटो अपलोड करें</string>
+    <string name="str_seed_data_upload">बीज डेटा अपलोड करें</string>
+    <string name="str_delete">हटाएं</string>
+    <string name="str_edit">संपादित करें</string>
+    <string name="str_upload">अपलोड करें</string>
+    <string name="str_seeds_data">बीज डेटा</string>
+    <string name="str_plant_and_tree_data">पौधा और पेड़ डेटा</string>
+    <string name="str_tools_data">साधन डेटा</string>
+
+
+
+
+
+</resources>

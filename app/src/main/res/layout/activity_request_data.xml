@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cd_1"
+        android:layout_width="@dimen/_100sdp"
+        android:layout_height="@dimen/_100sdp"
+        app:cardCornerRadius="100dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp">
+        <ImageView
+            android:id="@+id/userImage12"
+            android:layout_width="130dp"
+            android:layout_height="130dp"
+            android:src="@color/darkgreen"/>
+    </androidx.cardview.widget.CardView>
+
+    <TextView
+        android:id="@+id/nameUser"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="om"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textSize="25sp"
+        android:fontFamily="@font/josefinsanssemibold"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="25dp"
+        android:layout_marginRight="@dimen/_94sdp"
+        />
+
+    <TextView
+        android:id="@+id/emailUser"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Customer Email ID"
+        android:textStyle="bold"
+        android:textSize="25sp"
+        android:fontFamily="@font/josefinsanssemibold"
+        android:layout_below="@id/nameUser"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="@dimen/_12sdp"
+        android:layout_marginTop="5dp"/>
+
+    <TextView
+        android:id="@+id/mobileUser"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="7757950320"
+        android:textStyle="bold"
+        android:textSize="25sp"
+        android:fontFamily="@font/josefinsanssemibold"
+        android:layout_below="@id/emailUser"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="@dimen/_44sdp"
+
+        android:layout_marginTop="5dp"/>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recycleList"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/mobileUser"
+        android:layout_above="@id/totalPrice"
+        android:layout_marginTop="@dimen/_30sdp"/>
+
+
+
+    <TextView
+        android:id="@+id/totalPrice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="1000"
+        android:textStyle="bold"
+        android:textSize="25sp"
+        android:fontFamily="@font/josefinsanssemibold"
+        android:layout_above="@id/rr12"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="5dp"
+        />
+
+    <RelativeLayout
+        android:id="@+id/rr12"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:layout_alignParentBottom="true">
+
+        <Button
+            android:id="@+id/orderReject"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="REJECT"
+            android:textSize="20dp"
+            android:backgroundTint="@color/darkred"
+            android:layout_marginLeft="25dp"/>
+
+        <Button
+            android:id="@+id/orderApprove"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="APPROVED"
+            android:textSize="20dp"
+            android:backgroundTint="@color/green"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="25dp"/>
+
+    </RelativeLayout>
+
+</RelativeLayout>

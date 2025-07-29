@@ -1,0 +1,49 @@
+{
+  "project_info": {
+    "project_number": "812930826976",
+    "firebase_url": "https://growbuddy-312a8-default-rtdb.firebaseio.com",
+    "project_id": "growbuddy-312a8",
+    "storage_bucket": "growbuddy-312a8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:812930826976:android:e451c404e5616e573fc685",
+        "android_client_info": {
+          "package_name": "com.example.growbuddy"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAJ9ZNusf0ZgXN6LXggBInXIHVbv16eez0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:812930826976:android:e9ef51def2dfe9f13fc685",
+        "android_client_info": {
+          "package_name": "com.mohitladhe.growbuddy1"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAJ9ZNusf0ZgXN6LXggBInXIHVbv16eez0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

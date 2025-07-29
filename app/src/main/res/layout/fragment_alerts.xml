@@ -1,0 +1,439 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".AddPlantsFragment"
+    android:background="@color/theme2"
+    android:padding="@dimen/_12sdp">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/layout1"
+            >
+
+            <ImageView
+                android:id="@+id/img_bg1"
+                android:layout_width="@dimen/_25sdp"
+                android:layout_height="@dimen/_25sdp"
+                android:src="@drawable/bg1"
+                android:layout_centerHorizontal="true"
+                />
+
+            <TextView
+                android:id="@+id/text_name1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/str_controller_report"
+                android:textSize="@dimen/_24sdp"
+                android:textStyle="bold"
+                android:fontFamily="@font/josefinsanssemibold"
+                android:layout_below="@id/img_bg1"
+                android:layout_marginTop="@dimen/_18sdp"
+                android:textColor="@color/black"/>
+
+            <ImageView
+                android:id="@+id/img_logo1"
+                android:layout_width="@dimen/_60sdp"
+                android:layout_height="@dimen/_60sdp"
+                android:layout_below="@id/img_bg1"
+                android:layout_alignParentEnd="true"
+                android:src="@drawable/grow"
+                android:layout_marginTop="@dimen/_8sdp"/>
+
+            <ImageView
+                android:layout_width="@dimen/_16sdp"
+                android:layout_height="@dimen/_16sdp"
+                android:src="@drawable/icon_green"
+                android:layout_below="@id/text_name1"
+                android:layout_marginTop="@dimen/_12sdp"
+                android:layout_marginStart="@dimen/_4sdp"
+                />
+            <TextView
+                android:id="@+id/text_hours"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/str_monitor_1_hours"
+                android:textSize="@dimen/_16sdp"
+                android:textColor="@color/black"
+                android:layout_below="@id/text_name1"
+                android:layout_marginTop="@dimen/_8sdp"
+                android:fontFamily="@font/josefinsanssemibold"
+                android:layout_marginStart="@dimen/_24sdp"/>
+
+            <View
+                android:id="@+id/view1"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_1sdp"
+                android:layout_below="@id/text_hours"
+                android:layout_marginTop="@dimen/_24sdp"
+                android:layout_marginStart="@dimen/_12sdp"
+                android:layout_marginEnd="@dimen/_12sdp"
+                android:background="@color/black"/>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/card_temperature"
+                android:layout_width="@dimen/_135sdp"
+                android:layout_height="@dimen/_125sdp"
+                app:cardCornerRadius="@dimen/_12sdp"
+                android:layout_below="@id/view1"
+                android:layout_marginTop="@dimen/_30sdp"
+                android:layout_alignParentLeft="true"
+                android:backgroundTint="@color/theme"
+                android:layout_marginLeft="@dimen/_2sdp"
+                >
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <ImageView
+                        android:id="@+id/icon_temp_card"
+                        android:layout_width="@dimen/_25sdp"
+                        android:layout_height="@dimen/_25sdp"
+                        android:src="@drawable/high_temperature"
+                        android:layout_margin="@dimen/_12sdp"
+                        />
+
+                    <TextView
+                        android:id="@+id/text_temp_card"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="@dimen/_12sdp"
+                        android:layout_marginTop="@dimen/_10sdp"
+                        android:layout_alignParentEnd="true"
+                        android:layout_marginEnd="@dimen/_6sdp"
+                        android:fontFamily="@font/josefinsanssemibold"
+
+                        android:text="@string/temperature"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/_14sdp"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/_24sdp"
+                        android:text="--------------------"
+                        android:textSize="@dimen/_12sdp"
+                        android:fontFamily="@font/josefinsanssemibold"
+                        android:layout_alignParentEnd="true"
+                        android:layout_marginRight="@dimen/_10sdp"/>
+
+                    <TextView
+                        android:id="@+id/text_temp_name1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/icon_temp_card"
+                        android:text="@string/str_component_temperature"
+                        android:textSize="@dimen/_8sdp"
+                        android:textColor="@color/black"
+                        android:layout_marginStart="@dimen/_12sdp"
+                        android:fontFamily="@font/josefinsanssemibold"
+
+                        />
+
+                    <TextView
+                        android:id="@+id/data_temp_card"
+                        android:layout_width="@dimen/_80sdp"
+                        android:layout_height="@dimen/_40sdp"
+                        android:layout_below="@id/text_temp_name1"
+                        android:layout_marginStart="@dimen/_24sdp"
+                        android:layout_centerHorizontal="true"
+                        android:text="--"
+                        android:maxLength="4"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/_24sdp"
+                        android:gravity="center"
+                        android:fontFamily="@font/josefinsanssemibold"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_alignParentBottom="true"
+                        android:layout_marginStart="@dimen/_8sdp"
+                        android:layout_marginTop="@dimen/_8sdp"
+                        android:layout_marginEnd="@dimen/_8sdp"
+                        android:layout_marginBottom="@dimen/_8sdp"
+                        android:text="16-65(%)"
+                        android:textColor="@color/lightblue"
+                        android:textSize="@dimen/_8sdp" />
+
+
+
+                </RelativeLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="@dimen/_135sdp"
+                android:layout_height="@dimen/_125sdp"
+                app:cardCornerRadius="@dimen/_12sdp"
+                android:layout_below="@id/view1"
+                android:layout_marginTop="@dimen/_30sdp"
+                android:layout_alignParentEnd="true"
+                android:background="#F0E9F1"
+                android:layout_marginRight="@dimen/_2sdp"
+                android:backgroundTint="@color/theme"
+
+
+
+                >
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <ImageView
+                        android:id="@+id/icon_radar_card"
+                        android:layout_width="@dimen/_25sdp"
+                        android:layout_height="@dimen/_25sdp"
+                        android:layout_marginStart="@dimen/_12sdp"
+                        android:layout_marginTop="@dimen/_12sdp"
+                        android:layout_marginEnd="@dimen/_12sdp"
+                        android:layout_marginBottom="@dimen/_12sdp"
+                        android:src="@drawable/satellite_dish" />
+
+                    <TextView
+                        android:id="@+id/text_radar_card"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/_10sdp"
+                        android:layout_alignParentEnd="true"
+                        android:layout_marginEnd="@dimen/_30sdp"
+                        android:fontFamily="@font/josefinsanssemibold"
+
+                        android:text="@string/near_by"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/_14sdp"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/_24sdp"
+                        android:text="--------------------"
+                        android:textSize="@dimen/_12sdp"
+                        android:fontFamily="@font/josefinsanssemibold"
+                        android:layout_alignParentEnd="true"
+                        android:layout_marginRight="@dimen/_10sdp"/>
+
+                    <TextView
+                        android:id="@+id/text_radar_name1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/icon_radar_card"
+                        android:text="@string/str_distance_of_object_near_by"
+                        android:textSize="@dimen/_8sdp"
+                        android:textColor="@color/black"
+                        android:layout_marginStart="@dimen/_12sdp"
+                        android:fontFamily="@font/josefinsanssemibold"
+
+                        />
+
+                    <TextView
+                        android:id="@+id/radar_distance"
+                        android:layout_width="@dimen/_80sdp"
+                        android:layout_height="@dimen/_40sdp"
+                        android:layout_below="@id/text_radar_name1"
+                        android:layout_marginStart="@dimen/_24sdp"
+                        android:layout_centerHorizontal="true"
+                        android:text="--"
+                        android:maxLength="4"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/_24sdp"
+                        android:gravity="center"
+                        android:fontFamily="@font/josefinsanssemibold"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_alignParentBottom="true"
+                        android:layout_marginStart="@dimen/_8sdp"
+                        android:layout_marginTop="@dimen/_8sdp"
+                        android:layout_marginEnd="@dimen/_8sdp"
+                        android:layout_marginBottom="@dimen/_8sdp"
+                        android:text="2-400(cm)"
+                        android:textColor="@color/lightblue"
+                        android:textSize="@dimen/_8sdp" />
+
+
+
+
+
+                </RelativeLayout>
+
+
+            </androidx.cardview.widget.CardView>
+
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/card_smoke"
+                android:layout_width="@dimen/_290sdp"
+                android:layout_height="@dimen/_125sdp"
+                app:cardCornerRadius="@dimen/_12sdp"
+                android:layout_below="@id/card_temperature"
+                android:layout_marginTop="@dimen/_30sdp"
+                android:background="#F0E9F1"
+                android:layout_marginLeft="@dimen/_2sdp"
+                android:layout_marginRight="@dimen/_2sdp"
+                android:backgroundTint="@color/theme"
+
+
+
+
+                >
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:paddingLeft="@dimen/_12sdp"
+                    android:paddingTop="@dimen/_4sdp"
+                    android:paddingBottom="@dimen/_4sdp">
+
+                    <ImageView
+                        android:id="@+id/icon_gas_card"
+                        android:layout_width="@dimen/_25sdp"
+                        android:layout_height="@dimen/_25sdp"
+                        android:layout_marginStart="@dimen/_12sdp"
+                        android:layout_marginTop="@dimen/_12sdp"
+                        android:layout_marginEnd="@dimen/_12sdp"
+                        android:layout_marginBottom="@dimen/_12sdp"
+                        android:src="@drawable/technology" />
+
+                    <TextView
+                        android:id="@+id/text_gas_card"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/_10sdp"
+                        android:layout_marginEnd="@dimen/_30sdp"
+                        android:fontFamily="@font/josefinsanssemibold"
+
+                        android:text="@string/gas_detection"
+                        android:layout_marginStart="@dimen/_44sdp"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/_14sdp"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/_24sdp"
+                        android:text="-------------------------"
+                        android:textSize="@dimen/_12sdp"
+                        android:fontFamily="@font/josefinsanssemibold"
+                        android:layout_marginStart="@dimen/_44sdp"
+
+                        android:layout_marginRight="@dimen/_10sdp"/>
+
+                    <TextView
+                        android:id="@+id/text_gas_name1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/icon_gas_card"
+                        android:text="@string/str_reading_of_gas_sensor"
+                        android:textSize="@dimen/_8sdp"
+                        android:textColor="@color/black"
+                        android:layout_marginStart="@dimen/_20sdp"
+                        android:fontFamily="@font/josefinsanssemibold"
+
+
+                        />
+
+                    <TextView
+                        android:id="@+id/gas_reading"
+                        android:layout_width="@dimen/_80sdp"
+                        android:layout_height="@dimen/_40sdp"
+                        android:layout_below="@id/text_gas_name1"
+                        android:layout_marginStart="@dimen/_24sdp"
+                        android:maxLength="4"
+                        android:text="--"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/_24sdp"
+                        android:gravity="center"
+                        android:fontFamily="@font/josefinsanssemibold"
+
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerHorizontal="true"
+                        android:layout_alignParentBottom="true"
+                        android:layout_marginStart="@dimen/_8sdp"
+                        android:layout_marginTop="@dimen/_8sdp"
+                        android:layout_marginEnd="@dimen/_8sdp"
+                        android:layout_marginBottom="@dimen/_8sdp"
+                        android:text="300-1000(ppm)"
+                        android:textColor="@color/lightblue"
+                        android:textSize="@dimen/_8sdp" />
+
+                    <View
+                        android:id="@+id/view3"
+                        android:layout_width="1dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginStart="@dimen/_30sdp"
+                        android:layout_marginTop="@dimen/_12sdp"
+                        android:layout_marginBottom="@dimen/_8sdp"
+                        android:background="@android:color/black"
+                        android:layout_alignParentEnd="true"
+                        android:layout_marginEnd="@dimen/_100sdp"
+                        />
+
+                    <TextView
+                        android:id="@+id/text_smoke_text1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/smoke_detected"
+                        android:fontFamily="@font/josefinsanssemibold"
+                        android:layout_alignStart="@+id/view3"
+                        android:layout_marginTop="@dimen/_20sdp"
+                        android:textColor="@color/black"
+                        android:layout_marginStart="@dimen/_8sdp"/>
+
+                    <ImageView
+                        android:id="@+id/smoke_detected"
+                        android:layout_width="@dimen/_32sdp"
+                        android:layout_height="@dimen/_32sdp"
+                        android:src="@drawable/red"
+                        android:layout_below="@id/text_smoke_text1"
+                        android:layout_alignParentEnd="true"
+                        android:layout_marginTop="@dimen/_20sdp"
+                        android:layout_marginRight="@dimen/_32sdp"/>
+
+
+
+
+
+
+
+                </RelativeLayout>
+
+
+            </androidx.cardview.widget.CardView>
+
+            <View
+                android:id="@+id/view4"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_1sdp"
+                android:layout_below="@id/card_smoke"
+                android:layout_marginTop="@dimen/_29sdp"
+                android:layout_marginStart="@dimen/_12sdp"
+                android:layout_marginEnd="@dimen/_12sdp"
+                android:background="@color/black"
+
+                />
+        </RelativeLayout>
+
+
+    </ScrollView>
+</FrameLayout>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ToolsFragment"
+    android:background="@color/white">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/str_tools_data"
+            android:fontFamily="@font/josefinsanssemibold"
+            android:textSize="@dimen/_20sdp"
+            android:gravity="center"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:background="@color/theme2"
+            android:layout_marginTop="@dimen/_12sdp"
+            android:id="@+id/str_add"
+
+            />
+
+
+
+        <RelativeLayout
+            android:id="@+id/rl1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:background="@color/theme2"
+            android:layout_below="@id/str_add">
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/recyclerview_tools"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="0dp"
+                android:layout_marginEnd="0dp" />
+
+        </RelativeLayout>
+
+
+
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/upload_btn_tools"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="@dimen/_12sdp"
+            android:layout_marginRight="@dimen/_12sdp"
+            android:src="@drawable/icon_add"
+            android:text="plant"
+            android:contentDescription="TODO" />
+
+
+    </RelativeLayout>
+
+</FrameLayout>

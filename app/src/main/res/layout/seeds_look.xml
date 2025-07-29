@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <RelativeLayout
+        android:id="@+id/rl_1"
+        android:layout_width="wrap_content"
+        android:layout_height="220dp"
+        android:layout_marginLeft="14dp">
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cardView"
+            android:layout_width="160dp"
+            android:layout_height="160dp"
+            app:cardCornerRadius="20dp"
+            android:layout_alignParentBottom="true"
+            android:backgroundTint="@color/lightgreen">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:id="@+id/sh_seed_image"
+                    android:layout_width="140dp"
+                    android:layout_height="140dp"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="-50dp"/>
+
+                <TextView
+                    android:id="@+id/sh_seed_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Philodendron"
+                    android:textStyle="bold"
+                    android:textSize="15dp"
+                    android:textColor="@color/black"
+                    android:layout_marginTop="10dp"
+                    android:layout_below="@id/sh_seed_image"
+                    android:layout_marginStart="@dimen/_8sdp"/>
+
+                <TextView
+                    android:id="@+id/rs"
+                    android:layout_width="25dp"
+                    android:layout_height="wrap_content"
+                    android:text="Rs."
+                    android:textSize="15sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:fontFamily="sans-serif"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginBottom="11.5dp"
+                    android:layout_marginRight="-5dp"
+                    android:layout_marginLeft="10dp"/>
+
+                <!--                <TextView-->
+                <!--                    android:id="@+id/item_price"-->
+                <!--                    android:layout_width="wrap_content"-->
+                <!--                    android:layout_height="wrap_content"-->
+                <!--                    android:text="199"-->
+                <!--                    android:textSize="15dp"-->
+                <!--                    android:textColor="@color/black"-->
+                <!--                    android:fontFamily="sans-serif"-->
+                <!--                    android:layout_below="@id/tv_HeadLine_item"-->
+                <!--                    android:layout_toLeftOf="@id/addToCart"-->
+                <!--                    android:layout_marginTop="8dp"/>-->
+
+                <TextView
+                    android:id="@+id/sh_seed_price"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="199"
+                    android:textSize="15dp"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:fontFamily="sans-serif"
+                    android:layout_below="@id/sh_seed_name"
+                    android:layout_toRightOf="@id/rs"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginRight="4dp"/>
+
+
+                <ImageButton
+                    android:id="@+id/seedDeleteDataS"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:src="@drawable/icon_delete"
+                    android:textSize="@dimen/_8sdp"
+                    android:backgroundTint="@android:color/transparent"
+                    android:textColor="@color/black"
+                    android:layout_alignParentRight="true"
+                    android:layout_below="@id/sh_seed_name"
+                    android:layout_marginRight="5sp"
+                    />
+
+            </RelativeLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <ImageView
+            android:id="@+id/sh_seed_image_bg"
+            android:layout_width="140dp"
+            android:layout_height="140dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="11dp"
+            tools:ignore="DuplicateIds" />
+
+    </RelativeLayout>
+
+</RelativeLayout>

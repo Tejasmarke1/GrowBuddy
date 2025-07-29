@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+
+    <string name="temperature">तापमान</string>
+    <string name="near_by">जवलपास</string>
+    <string name="gas_detection">गगॅस शोधणे</string>
+    <string name="smoke_detected">गगॅस सापडला</string>
+
+    <string name="login_str">लॉगिन</string>
+    <string name="username_str">वापरकर्तानाव</string>
+    <string name="password_str">संकेतशब्द</string>
+    <string name="conditionInLogin_str"><![CDATA[मी सर्व अटी आणि अटीचे सगळे नियम स्वीकारतो.]]></string>
+    <string name="str_humidity">नमी</string>
+    <string name="str_soil_moisture">मातीतील ओलावा</string>
+    <string name="str_controller_report">नियंत्रक अहवाल</string>
+    <string name="str_monitor_1_hours">1 तास प्रमाणित करा</string>
+    <string name="str_component_temperature">घटक तापमान</string>
+    <string name="str_distance_of_object_near_by">जवळच्या वस्तूची अंतर</string>
+    <string name="str_reading_of_gas_sensor">गॅस सेन्सरची वाचन</string>
+    <string name="str_add_plant_here">येथे वनस्पती जोडा</string>
+
+    <string name="str_upload_plant_amp_tree"><![CDATA[वनस्पती आणि झाड अपलोड करा]]></string>
+    <string name="str_description">वर्णन</string>
+    <string name="str_plant_name">वनस्पतीचे नाव</string>
+    <string name="str_upload_plant_image">वनस्पतीची चित्रे अपलोड करा</string>
+    <string name="str_submit">सबमिट करा</string>
+
+    <string name="str_current">सध्याचे</string>
+    <string name="str_soil_moisture_1">मातीची उपजाती 1</string>
+    <string name="str_soil_moisture_2">मातीची उपजाती 2</string>
+    <string name="str_water_pump">पाणीचा पंप</string>
+
+    <string name="str_terms_amp_condition"><![CDATA[अटी आणि अटीचे शर्ते]]></string>
+    <string name="str_contact_us">आमच्याशी संपर्क साधा</string>
+    <string name="str_about_us">आमच्याबद्दल</string>
+    <string name="str_log_out">लॉग आउट</string>
+    <string name="str_settings">सेटिंग्ज</string>
+    <string name="str_term">ही अटी आणि अटीची शर्ते कंपनीच्या वेबसाइटवरच्या वापराच्या नियम आणि विनियमांचे मार्गदर्शक आहेत, ज्याच्याच शिक्षाणाचे असेल वेबसाइट डॉट कॉम. हे वेबसाइट सापडल्यास आम्ही तुम्हाला या अटी आणि अटीच्या नियमांची आणि शर्तांची स्वीकृती करीत असेल. या पृष्ठावर स्थित शर्ते आणि नियमांच्या सर्व अटी आणि अटीच्या शर्तांचे पालन करण्याच्या शर्तांची स्वीकृती न केल्यास, कृपया वेबसाइटचा वापर जारी ठेवू नका. ह्या अटी आणि अटीच्या शर्तांसाठी, गोपनीयता विवरण आणि अस्वीकृतीचे सूचन आणि सर्व करारांसाठी खालील शब्दांचे वापर केले जाते: ग्राहक, तुम्ही आणि तुमच्यासाठी, ह्या वेबसाइटवर लॉग ऑन केलेले व्यक्ती आणि कंपनीच्या शर्ते आणि अटी. कंपनी, स्वतः, आम्ही, आमचं आणि भारत, आम्हांचं नाव देतात. कार्यकर्ता, पक्ष, किंवा भारत, ग्राहक आणि आम्हांच्यातील दोघांचे द्यावे त्यांना सांगितले जाते.</string>
+    <string name="str_language">भाषा</string>
+
+    <string name="buttonSelectPhoto">फोटो निवडा</string>
+    <string name="buttonTakePhoto">कॅमेरा सुरू करा</string>
+    <string name="buttonDiagnose">तपासा</string>
+    <string name="defaultImage">आता डिफॉल्ट चित्र सेट केला गेला आहे...</string>
+    <string name="descriptionImage">छवी दाखवण्यासाठी दृश्य</string>
+
+    <string name="hello_blank_fragment">नमस्कार रिक्त फ्रेगमेंट</string>
+    <string name="str_grow_buddy">वाढवा मित्र</string>
+    <string name="str_price">किंमत</string>
+    <string name="str_seeds_name">बियांचे नाव</string>
+    <string name="str_upload_seed_photo">बियांची फोटो अपलोड करा</string>
+    <string name="str_seed_data_upload">बियांची माहिती अपलोड करा</string>
+    <string name="str_delete">हटवा</string>
+    <string name="str_edit">संपादित करा</string>
+    <string name="str_upload">अपलोड करा</string>
+    <string name="str_seeds_data">बियांची माहिती</string>
+    <string name="str_plant_and_tree_data">वनस्पती आणि झाडांची माहिती</string>
+    <string name="str_tools_data">साधने डेटा</string>
+
+
+</resources>

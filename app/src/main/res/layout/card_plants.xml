@@ -1,0 +1,192 @@
+    <!-- custom_dialog_layout.xml -->
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:orientation="vertical"
+        android:layout_centerHorizontal="true">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            app:cardCornerRadius="@dimen/_12sdp"
+            android:backgroundTint="#EDEDEB"
+            >
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center">
+
+
+            <ImageView
+                android:id="@+id/imageViewCardPlants"
+                android:layout_width="@dimen/_180sdp"
+                android:layout_height="@dimen/_180sdp"
+                android:src="@drawable/add_image"
+                android:layout_centerHorizontal="true"
+
+                android:layout_marginTop="@dimen/_8sdp"/>
+                <androidx.cardview.widget.CardView
+                    android:layout_below="@id/imageViewCardPlants"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:cardCornerRadius="@dimen/_12sdp">
+
+                    <ScrollView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        >
+
+                <TextView
+                    android:id="@+id/nameTextView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Plant Name"
+                    android:fontFamily="@font/josefinsanssemibold"
+                    android:layout_marginTop="@dimen/_12sdp"
+                    android:layout_marginStart="@dimen/_12sdp"
+                    android:textSize="@dimen/_16sdp"
+                    android:textColor="@color/black"
+                    />
+
+                    <TextView
+
+                        android:id="@+id/priceTextView"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignRight="@id/nameTextView"
+
+                        android:text="999Rs."
+                        android:layout_alignParentRight="true"
+                        android:layout_marginTop="@dimen/_17sdp"
+                        android:layout_marginEnd="@dimen/_30sdp"
+                        android:fontFamily="@font/josefinsanssemibold"
+                        android:textSize="@dimen/_18sdp"
+
+                        android:textColor="@color/black"
+                        />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/priceTextView"
+                            android:id="@+id/tv_description"
+                            android:text="Description"
+                            android:layout_marginStart="@dimen/_12sdp"
+                            android:textSize="@dimen/_18sdp"
+                            android:textColor="@color/black"
+                            android:fontFamily="@font/josefinsanssemibold"/>
+
+                        <TextView
+                            android:id="@+id/descriptionTextView"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Roses are erect, climbing, or trailing shrubs, the stems of which are usually copiously armed with prickles of various shapes and sizes, commonly called thorns. The leaves are alternate and pinnately compound (i.e., feather-formed), usually with oval leaflets that are sharply toothed."
+                            android:textSize="@dimen/_14sdp"
+                            android:layout_marginStart="@dimen/_12sdp"
+                            android:layout_marginEnd="@dimen/_12sdp"
+                            android:layout_below="@id/tv_description"
+                            android:textColor="@color/black"
+                            android:layout_marginTop="@dimen/_8sdp"
+
+                            />
+
+                        <androidx.cardview.widget.CardView
+                            android:id="@+id/cardDelete"
+                            android:layout_below="@id/descriptionTextView"
+                            android:layout_width="@dimen/_100sdp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="@dimen/_22sdp"
+                            app:cardCornerRadius="@dimen/_12sdp"
+                            android:layout_marginEnd="@dimen/_22sdp"
+                            android:layout_marginTop="@dimen/_22sdp"
+                            android:backgroundTint="#ECEC47"
+                            >
+                            <RelativeLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                >
+                                <androidx.appcompat.widget.AppCompatButton
+                                    android:id="@+id/deleteData"
+                                    android:paddingLeft="@dimen/_20sdp"
+                                    android:paddingRight="20dp"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="38dp"
+                                    android:background="@drawable/butoon_background11"
+                                    android:drawableLeft="@drawable/icon_delete"
+                                    android:paddingStart="@dimen/_14sdp"
+                                    android:text="@string/str_delete"
+                                    android:fontFamily="@font/josefinsanssemibold"
+                                    />
+
+
+
+                            </RelativeLayout>
+
+                        </androidx.cardview.widget.CardView>
+                        <androidx.cardview.widget.CardView
+                            android:layout_below="@id/descriptionTextView"
+                            android:layout_width="@dimen/_100sdp"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentEnd="true"
+                            app:cardCornerRadius="@dimen/_12sdp"
+                            android:layout_marginEnd="@dimen/_22sdp"
+                            android:layout_marginTop="@dimen/_22sdp"
+                            android:backgroundTint="#ECEC47"
+                            >
+                            <RelativeLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                >
+                                <androidx.appcompat.widget.AppCompatButton
+                                    android:id="@+id/editData"
+                                    android:paddingLeft="@dimen/_20sdp"
+                                    android:paddingRight="20dp"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="38dp"
+                                    android:background="@drawable/butoon_background11"
+                                    android:drawableLeft="@drawable/ic_edit"
+                                    android:paddingStart="@dimen/_14sdp"
+                                    android:text="@string/str_edit"
+                                    android:fontFamily="@font/josefinsanssemibold"
+                                />
+
+
+
+                            </RelativeLayout>
+
+                        </androidx.cardview.widget.CardView>
+
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="1dp"
+                            android:background="@color/black"
+                            android:layout_below="@id/cardDelete"
+                            android:layout_marginTop="@dimen/_18sdp"
+                            android:layout_marginBottom="@dimen/_12sdp"
+                            android:layout_marginStart="@dimen/_12sdp"
+                            android:layout_marginEnd="@dimen/_12sdp"
+
+                            />
+                    </RelativeLayout>
+                    </ScrollView>
+                </androidx.cardview.widget.CardView>
+            </RelativeLayout>
+
+
+        </androidx.cardview.widget.CardView>
+
+
+
+
+
+
+
+
+    </ScrollView>
